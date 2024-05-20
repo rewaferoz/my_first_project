@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chocolate Chip Cookies</title>
+</head>
+<body>
+  <main>
+   
+      <article>
+  <section id="title">
+    <h1><b><u>CHOCOLATE CHIP COOKIES RECIPE</b></u></h1>
+      </section>
+    <span class="first"> 
+    <p>The recipe we'll be making today is Chocolate Chip Cookies! And the reason why i love it so much
+    is because im a sweet tooth and i just love how homely these feel.</p>
+  </span>
+        
+      <div class="yo">
+           <img  src="https://richanddelish.com/wp-content/uploads/2022/10/No-Butter-Chocolate-Chip-Cookies-9-of-12-360x527.jpg" />
+      </div>
+      <br>
+      </br>
+      <!--Ingredients-->
+ <section class="card" id="ingredients">
+     <h3>Ingredients</h3>
+  <div> 
+   <ul class="cookies">
+    <li>1 cup (2 sticks) unsalted butter, softened</li>
+    <li>3/4 cup granulated sugar</li>
+    <li>3/4 cup brown sugar (packed)</li>
+    <li>2 large eggs</li>
+    <li>1 teaspoon vanilla extract</li>
+    <li>2 1/4 cups all-purpose flour</li>
+    <li>1 teaspoon baking soda</li>
+    <li>1/2 teaspoon salt</li>
+    <li>2 cups semisweet chocolate chips</li>
+    <li><strong>Optional</strong>: 1 cup chopped walnuts</li>
+  </ul>
+    </div>
+  </section>
+    <p>
+      </p>
+  <!--Instructions-->
+  <section  class="whip" id="instructions">
+    <h3>Instructions</h3>
+  <ol class="cream">
+    <li>Preheat your oven to 350°F (175°C). <id="emoji">♨️ </li>
+    <li>In a large mixing bowl, cream together the softened butter, 
+      granulated sugar, and brown sugar until light and fluffy.</li>
+    <li>Beat in the eggs one at a time, then add the vanilla extract.</li>
+    <li>Dissolve the baking soda in 1 teaspoon of hot water, 
+      and add it to the mixture. <id="emoji">🥛 </li>
+    <li>Gradually stir in the flour until just combined. <id="emoji">🥣 </li>
+    <li>Fold in the chocolate chips <em>(and walnuts, if using). </em>  <id="emoji"> 🌰</li>
+    <li>Drop spoonfuls of dough onto an ungreased cookie sheet,
+      about 2 inches apart.</li>
+    <li>Bake for 10-12 minutes, or until the edges are golden brown. <id="emoji">🤎 </li>
+    <li>Let the cookies cool on the baking sheet for a
+      few minutes before transferring 
+      them to a wire rack to cool completely.</li>
+    </section>
+    <br>
+    <div  class="meh">
+     <img src="https://modernmealmakeover.com/wp-content/uploads/2020/06/IMG_1879-2-380x380.jpg" />
+    </div>
+      </br>
+    </ol>
+ <section>
+  <div>
+   <span class="styled-span">
+   <p> Your cookies should smell and taste like salty and soft in the center!
+    The chocolaty aroma would surround your home!</p>
+     </div>
+    
+      <nav>
+        <p> <b>ooey, gooey, chocolaty!</b> </p>
+      </nav>
+    
+      </span>
+
+  </section>
+    <span class="last">
+          <p><em>Enjoy your freshly baked chocolate chip cookies!</em> <id="emoji">🍪 </p>
+  </span>
+  <div class="lt">
+  <h2> Find more related recipes! </h2>
+  </div>
+  <ol>
+    <li><a href="https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/"> Chewy Chocolate Chip Cookies </a> </li>
+    <li><a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"> Best Chocolate Chip Cookies </a> </li>
+    <li><a href="https://www.bettycrocker.com/recipes/ultimate-chocolate-chip-cookies/77c14e03-d8b0-4844-846d-f19304f61c57"> Ultimate Chocolate Chip Cookies </a></li>
+    <li><a href="https://www.thebakingchocolatess.com/perfect-chocolate-chip-cookies/">Perfect Chocolate Chip Cookies</a> </li>
+    <li><a href="https://www.kingarthurbaking.com/recipes/easy-chocolate-chip-cookies-recipe">Easy Chocolate Chip Cookies</a> </li>
+         </article>
+  <footer>
+    <p> This page is created by Rewa.</p>
+  </footer>
+</body>
+</html>
+ CSS CODE:
+body {
+  background-color: rgb(255, 165, 0);
+}
+
+main{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+p{
+  font-size: 30px;
+}
+.yo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yo:hover{
+  transform: scale(2);
+}
+.meh:hover{
+  transform: scale(2);
+}
+
+
+.meh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+ul li::before {
+    content: ''; /* Empty content for the bullet point */
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-image: url(https://clipground.com/images/cookie-clipart-icon-2.jpg);
+    background-size: contain;
+    margin-right: 10px; 
+}
+
+#title {
+  color: #fff;
+  background-color: brown;
+   font-family: 'Arial', sans-serif;
+  font-size: 50px;
+  text-align: center;
+ }
+  
+ul {
+  font-size: 25px;
+}
+
+ol{
+  list-style-type: lower-roman;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right:50px;
+  text-align: left;
+}
+
+.first{
+  color: #fff;
+  padding-left:10px;
+}
+h3 {
+  font-size:30px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#ingredients >h3{
+  color: brown;
+  font-family: cursive;
+}
+#instructions >h3{
+  color: pink;
+  font-family: cursive;
+    text-align: center;
+}
+h2  {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  display: flex;
+}
+h1:hover{
+ 
+  transition: color 1s ease;
+   color: black;
+ }
+
+
+section > div > .styled-span >p{
+    color: brown;
+    font-style:italic;
+}
+
+.card {
+  background-color: #fff;
+  border: 0.5px solid black;
+  border-radius: 30px;
+  
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.whip{
+   background-color: #fff;
+  border: 0.5px solid black;
+  border-radius: 30px;
+}
+footer > p{
+  font-size: 20px;
+  color: #fff;
+  background-color: burlywood;
+  
+}
+
+footer: hover{
+   background-color: brown;
+}
+
+.yo{
+  border-radius: 30px;
+  border: 0.5px solid black;
+}
+.meh{
+  border-radius: 30px;
+  border: 0.5px solid black;
+}
+nav:hover{
+  text-align: center;
+  font-style: oblique;
+   color: pink;
+  transition: color 1s ease;
+  padding-left: 20px;
+  
+ 
+}
+
+footer>p:hover{
+  color: pink;
+}
+ 
+.lt{
+  text-align: center;
+  font-style: oblique;
+   color: pink;
+}
+
+/* a website that lists out all the various css properties we can use, visit: https://www.geeksforgeeks.org/css-properties-complete-reference/ */
